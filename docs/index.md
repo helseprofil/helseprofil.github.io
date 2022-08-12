@@ -1,10 +1,10 @@
 ## Håndbok 
 
-Hvordan installerer pakker og bruker funkjonene i KHelse arbeid. For å oppdatere håndboken kan gjøres direkte i[editor on GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md) 
+Hvordan installerer pakker og bruker funkjonene i KHelse arbeid. For å oppdatere håndboken kan gjøres direkte i [editor on GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md) 
 
 ## Installasjon
 
-Det brukes for å sette opp ny maskin. Viktig at du må først installere *Git* fra SoftwareCenter.
+Det brukes for å sette opp ny maskin. Viktig at du må først installere **Git** fra SoftwareCenter.
 
 ### KHfunctions
 - Kjør:
