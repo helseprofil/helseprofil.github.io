@@ -17,7 +17,7 @@ source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(khfunctions)
 ```
 - RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og så re-åpne innen *khfunctions* prosjekt.
-- Hvis *KHfunctions.R* bruker nye pakker så må du kjøre `kh_restore(khfunctions)` på nytt.
+- Du må du kjøre `kh_restore(khfunctions)` på nytt bare hvis nye pakker eller versjoner har blitt brukt i `KHfunctions.R`, men ikke hvis det bare er endring i kodene. Du bør få beskjed om dette. 
 - For mer detaljert veileding kan leses [her](https://github.com/helseprofil/khfunctions#khfunctions "khfunctions")
 
 ### orgdata
@@ -55,7 +55,7 @@ kh_source(repo = "khfunctions", branch = "master", file = "KHfunctions.R", encod
 
 ## Vedlikeholder
 
-Dette er relevant hvis du skal oppdatere funksjonene i *orgdata* eller *khfunctions*.
+Dette er relevant hvis du skal oppdatere og vedlikeholde funksjonene i *orgdata* eller *khfunctions*.
 
 ```R
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
