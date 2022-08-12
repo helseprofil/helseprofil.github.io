@@ -1,49 +1,58 @@
 ## Håndbok 
 
-Hvordan installerer pakker og bruker funkjonene i KHelse arbeid:
+Hvordan installerer pakker og bruker funkjonene i KHelse arbeid. For å oppdatere håndboken kan gjøres direkte i[editor on GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md) 
 
 ## Installasjon
 
-Det brukes for å sette opp ny maskin:
+Det brukes for å sette opp ny maskin. Viktig at du må først installere *Git* fra SoftwareCenter.
 
 ### KHfunctions
+- Kjør:
 
+```R
+source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
+kh_restore(khfunctions)
+```
+- RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og reåpne innen *khfunctions* prosjekt.
+- Hvis *KHfunctions.R* bruker nye pakker så må du kjøre `kh_restore(khfunctions)` på nytt.
 
+### orgdata
+- Kjør:
 
+```R
+source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
+kh_install(orgdata)
+```
+- For å oppdatere til ny versjon:
 
-
-You can use the [editor on GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```R
+library(orgdata)
+update_orgdata()
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Bruker
 
-### Jekyll Themes
+### KHfunctions
+- Sjekk at du er i prosjekt for *khfunctions*.
+- Bruk filen `SePaaFil.R` som veileding til hvordan man kan få tilgang til alle funksjonene i KHelse ved å source `KHfunctions.R` fra GitHub.
+- Hvis du ikke vil bruke `SePaaFil.R` er det viktig at du kjøre følgende først for å kunne ha tilgang til alle funkjonene i *KHfunctions*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/helseprofil/helseprofil.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```R
+rm(list = ls())
+source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
+kh_source(repo = "khfunctions", branch = "master", file = "KHfunctions.R", encoding = "latin1")
+```
 
-### Support or Contact
+### orgdata
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Du må gjøre *orgdata* pakke tilgjenglig ved å kjøre `library(orgdata)`
+- Eksampler til bruk av de funksjonene for orgdata finnes i [SePaaFil.R](https://helseprofil.github.io/orgdata/articles/sepaafil.html)
+
+## Vedlikehold
+
+Dette er relevant hvis du skal oppdatere funksjonene i *orgdata* eller *khfunctions*.
+
+```R
+source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
+kh_restore(orgdata)
+```
