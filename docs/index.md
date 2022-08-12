@@ -1,4 +1,16 @@
-## Welcome to GitHub Pages
+## Håndbok 
+
+Hvordan installerer pakker og bruker funkjonene i KHelse arbeid:
+
+## Installasjon
+
+Det brukes for å sette opp ny maskin:
+
+### KHfunctions
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
