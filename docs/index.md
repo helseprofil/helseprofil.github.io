@@ -53,7 +53,7 @@ kh_source(repo = "khfunctions", branch = "master", file = "KHfunctions.R", encod
 - Du må gjøre *orgdata* pakke tilgjenglig ved å kjøre `library(orgdata)`
 - Eksampler til bruk av de funksjonene for orgdata finnes i [SePaaFil.R](https://helseprofil.github.io/orgdata/articles/sepaafil.html)
 
-## Vedlikehold
+## Vedlikeholder
 
 Dette er relevant hvis du skal oppdatere funksjonene i *orgdata* eller *khfunctions*.
 
