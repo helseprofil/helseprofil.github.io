@@ -1,10 +1,13 @@
 ## Håndbok 
 
-Hvordan installerer pakker og bruker funkjonene i KHelse arbeid. For å oppdatere håndboken kan gjøres direkte i [editor on GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md) 
+Hvordan installerer pakker og bruker funkjonene i KHelse arbeid. For å oppdatere
+håndboken kan gjøres direkte i [editor on
+GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
 
 ## Installasjon
 
-Det brukes for å sette opp ny maskin. Viktig at du må først installere **Git** fra SoftwareCenter.
+Installasjon brukes for å sette opp ny maskin eller kjøre fersk installasjon.
+Viktig at du må først installere **Git** fra SoftwareCenter.
 
 ### KHfunctions
 - Kjør:
@@ -13,8 +16,9 @@ Det brukes for å sette opp ny maskin. Viktig at du må først installere **Git*
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(khfunctions)
 ```
-- RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og reåpne innen *khfunctions* prosjekt.
+- RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og så re-åpne innen *khfunctions* prosjekt.
 - Hvis *KHfunctions.R* bruker nye pakker så må du kjøre `kh_restore(khfunctions)` på nytt.
+- For mer detaljert veileding kan leses [her](https://github.com/helseprofil/khfunctions#khfunctions "khfunctions")
 
 ### orgdata
 - Kjør:
@@ -29,6 +33,7 @@ kh_install(orgdata)
 library(orgdata)
 update_orgdata()
 ```
+- For mer detaljert veiledning kan leses [her](https://helseprofil.github.io/orgdata/articles/sepaafil.html "orgdata")
 
 ## Bruker
 
@@ -55,4 +60,15 @@ Dette er relevant hvis du skal oppdatere funksjonene i *orgdata* eller *khfuncti
 ```R
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(orgdata)
+```
+
+## Bonus 
+
+Noen ganger trenger man å ha tilgang til flere pakker fra CRAN samtidig. Bruk
+`pkg_load()` til det for å *load* pakker evt. installerer den først hvis pakken
+ikke finnes allerede. Denne funksjonen gjelder bare pakke som er tilgjenglig på CRAN.
+
+```R
+source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
+pkg_load(dplyr, ggplot2, norgeo)
 ```
