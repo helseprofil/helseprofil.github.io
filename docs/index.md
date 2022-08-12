@@ -6,7 +6,7 @@ GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/inde
 
 ## Installasjon
 
-Installasjon brukes for å sette opp ny maskin eller kjøre fersk installasjon.
+Installasjon brukes for å sette opp ny maskin eller kjører fersk installasjon.
 Viktig at du må først installere **Git** fra SoftwareCenter.
 
 ### KHfunctions
