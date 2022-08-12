@@ -40,7 +40,7 @@ update_orgdata()
 ### KHfunctions
 - Sjekk at du er i prosjekt for *khfunctions*.
 - Bruk filen `SePaaFil.R` som veileding til hvordan man kan få tilgang til alle funksjonene i KHelse ved å source `KHfunctions.R` fra GitHub.
-- Hvis du ikke vil bruke `SePaaFil.R` er det viktig at du kjører komandoen nedenfor først for å kunne ha tilgang til alle funkjonene i *KHfunctions*
+- Hvis du ikke vil bruke `SePaaFil.R` er det viktig at du kjører komandoen nedenfor først for å kunne ha tilgang til alle funksjonene i *KHfunctions*
 
 ```R
 rm(list = ls())
