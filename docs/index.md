@@ -1,7 +1,7 @@
 ## Håndbok 
 
 Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjonene for KHelse arbeid. For å oppdatere
-håndboken kan gjøres direkte i [editor on
+håndboken kan gjøres direkte i [editor på 
 GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
 
 ## Installasjon
