@@ -66,7 +66,7 @@ kh_restore(orgdata)
 
 Noen ganger trenger man å ha tilgang til flere pakker fra CRAN samtidig. Bruk
 `pkg_load()` til det for å *load* pakker evt. installerer den først hvis pakken
-ikke finnes allerede. Denne funksjonen gjelder bare pakke som er tilgjenglig på CRAN.
+ikke finnes allerede. Denne funksjonen gjelder bare for pakker som er tilgjenglig på CRAN.
 
 ```R
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
