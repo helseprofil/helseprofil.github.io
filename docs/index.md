@@ -4,7 +4,7 @@ Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjon
 håndboken kan gjøres direkte i [editor på 
 GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
 
-## Installasjon
+## Hvordan installere ...
 
 Installasjon brukes for å sette opp ny maskin eller kjører fersk installasjon.
 Viktig at du må først installere **Git** fra SoftwareCenter.
@@ -35,7 +35,7 @@ update_orgdata()
 ```
 - For mer detaljert veiledning kan leses [her](https://helseprofil.github.io/orgdata/articles/sepaafil.html "orgdata")
 
-## Bruker
+## Hvordan bruker ...
 
 ### KHfunctions
 - Sjekk at du er i prosjekt for *khfunctions*.
@@ -53,7 +53,7 @@ kh_source(repo = "khfunctions", branch = "master", file = "KHfunctions.R", encod
 - Du må gjøre *orgdata* pakke tilgjenglig ved å kjøre `library(orgdata)`
 - Eksampler til bruk av de funksjonene for orgdata finnes i [SePaaFil.R](https://helseprofil.github.io/orgdata/articles/sepaafil.html)
 
-## Vedlikeholder
+## Hvordan vedlikeholder ...
 
 Dette er relevant hvis du skal oppdatere og vedlikeholde funksjonene i *orgdata* eller *khfunctions*.
 
