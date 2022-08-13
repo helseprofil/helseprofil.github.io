@@ -4,7 +4,7 @@ Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjon
 håndboken kan gjøres direkte i [editor på 
 GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
 
-## Hvordan installere ...
+## Hvordan installerer ...
 
 Installasjon brukes for å sette opp ny maskin eller kjører fersk installasjon.
 Viktig at du må først installere **Git** fra SoftwareCenter.
