@@ -71,7 +71,7 @@ kh_restore(orgdata)
 ## Noe ekstra ... 
 
 Noen ganger trenger man å ha tilgang til flere pakker fra CRAN samtidig. Bruk
-`pkg_load()` til det for å *load* pakker evt. installere pakker først hvis ikke finnes allerede. Denne funksjonen gjelder bare for pakker som er tilgjenglig på CRAN.
+`pkg_load()` til det for å *load* pakker evt. installere pakker først hvis ikke finnes allerede. Denne funksjonen gjelder bare for pakker som er tilgjenglig på CRAN. Ellers kan man installere og bruke [pacman](https://cran.r-project.org/web/packages/pacman/index.html "pacman") package with `p_load()`.
 
 ```R
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
