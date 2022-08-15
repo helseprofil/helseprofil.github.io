@@ -22,7 +22,7 @@ kh_restore(khfunctions)
  1. Hvis nye pakker eller pakker versjoner har blitt brukt i `KHfunctions.R`. Du bør få beskjed om dette.
  2. Du har oppgradert R versjon
 
-Du behøver *IKKE* å kjøre komandoen på nytt hvis det bare er endring i kodene. 
+- Du behøver *IKKE* å kjøre komandoen på nytt hvis det bare er endring i kodene. 
 
 - For mer detaljert veileding kan leses [her](https://github.com/helseprofil/khfunctions#khfunctions "khfunctions")
 
