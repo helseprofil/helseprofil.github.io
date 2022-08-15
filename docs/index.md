@@ -17,10 +17,10 @@ kh_restore(khfunctions)
 ```
 - RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og så re-åpne innen *khfunctions* prosjekt.
 
-I tillegg til ny maskin så trenger du å kjøre komandoen:
+- I tillegg til ny maskin så trenger du å kjøre komandoen:
 
-1. Hvis nye pakker eller pakker versjoner har blitt brukt i `KHfunctions.R`. Du bør få beskjed om dette.
-2. Du har oppgradert R versjon
+ 1. Hvis nye pakker eller pakker versjoner har blitt brukt i `KHfunctions.R`. Du bør få beskjed om dette.
+ 2. Du har oppgradert R versjon
 
 Du behøver *IKKE* å kjøre komandoen på nytt hvis det bare er endring i kodene. 
 
