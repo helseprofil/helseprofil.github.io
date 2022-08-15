@@ -68,16 +68,20 @@ source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(orgdata)
 ```
 
-## Noe ekstra ... 
+## Load eller installere flere pakker samtidig ... 
 
-Noen ganger trenger man å ha tilgang til flere pakker fra CRAN samtidig. Bruk
-`pkg_load()` til det for å *load* pakker. Hvis pakker ikke finnes allerede
-lokalt så skal de installeres automatisk før *loading*. Denne funksjonen gjelder
-bare for pakker som er tilgjengelig på CRAN.
+Noen ganger trenger man å ha tilgang til flere pakker dvs. både pakker for
+KHelse og andre fra CRAN samtidig. Bruk `kh_load()` til det for å *load* pakker.
+Hvis pakker ikke finnes lokalt allerede så skal de installeres automatisk før
+*loading*. Denne funksjonen gjelder bare for pakker tilgjengelig på CRAN og
+KHelse relaterte pakker dvs. `orgdata`, `khompare` etc.
 
 ```R
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
-pkg_load(dplyr, ggplot2, norgeo)
+kh_load(orgdata, dplyr, ggplot2, norgeo)
 ```
 
-Den samme funksjonen kan også oppnås ved å bruke `p_load()` fra [pacman](https://cran.r-project.org/web/packages/pacman/index.html "pacman") package, men du må først installere `pacman` pakke.
+Den nesten samme funksjonen kan også oppnås ved å bruke `p_load()` fra
+[pacman](https://cran.r-project.org/web/packages/pacman/index.html "pacman")
+package, men det funker ikke for KHelse pakker. I tillegg må man først
+installere `pacman` pakke.
