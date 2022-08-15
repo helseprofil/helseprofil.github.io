@@ -85,3 +85,5 @@ Den nesten samme funksjonen kan også oppnås ved å bruke `p_load()` fra
 [pacman](https://cran.r-project.org/web/packages/pacman/index.html "pacman")
 package, men det funker ikke for KHelse pakker. I tillegg må man først
 installere `pacman` pakke.
+
+## Troubleshoot ...
