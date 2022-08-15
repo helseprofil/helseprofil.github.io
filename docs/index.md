@@ -37,6 +37,9 @@ kh_install(orgdata)
 ```R
 library(orgdata)
 update_orgdata()
+
+# eller
+orgdata::update_orgdata()
 ```
 - For mer detaljert veiledning kan leses [her](https://helseprofil.github.io/orgdata/articles/sepaafil.html "orgdata")
 
