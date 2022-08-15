@@ -78,4 +78,4 @@ source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 pkg_load(dplyr, ggplot2, norgeo)
 ```
 
-Det samme funksjonen kan man også gjøre ved å bruke `p_load()` fra [pacman](https://cran.r-project.org/web/packages/pacman/index.html "pacman") package, men du må installere `pacman` først.
+Den samme funksjonen kan også gjøre ved å bruke `p_load()` fra [pacman](https://cran.r-project.org/web/packages/pacman/index.html "pacman") package, men du må først installere `pacman` pakke.
