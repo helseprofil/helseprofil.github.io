@@ -87,3 +87,5 @@ package, men det funker bare for pakker fra CRAN og ikke for de KHelse pakkene. 
 installere `pacman` pakke.
 
 ## Troubleshooting ...
+
+bla.. bla.. bla.. 
