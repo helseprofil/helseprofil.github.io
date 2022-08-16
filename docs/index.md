@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjonene for KHelse arbeid. For å oppdatere
 håndboken kan gjøres direkte i [editor på 
