@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[GitHub](https://github.com/helseprofil "GitHub") | [FAQ](./faq-page.html)
+** [GitHub](https://github.com/helseprofil "GitHub") | [FAQ](./faq-page.html) **
 
 Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjonene for KHelse arbeid. For å oppdatere
 håndboken kan gjøres direkte i [editor på 
@@ -93,3 +93,5 @@ Den nesten samme funksjonen kan også oppnås ved å bruke `p_load()` fra
 package, men det funker bare for pakker fra CRAN og ikke for de KHelse pakkene. I tillegg må man først
 installere `pacman` pakke.
 
+
+[FAQ](./faq-page.html)
