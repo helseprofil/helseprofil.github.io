@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[GitHub](https://github.com/helseprofil "GitHub") || [FAQ](./faq-page.html)
+[GitHub](https://github.com/helseprofil "GitHub") | [FAQ](./faq-page.html)
 
 Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjonene for KHelse arbeid. For å oppdatere
 håndboken kan gjøres direkte i [editor på 
@@ -40,10 +40,6 @@ kh_install(orgdata)
 - Du får automatisk beskjed i consolen ved pakke *loading* når det kommer ny release versjon. For å oppdatere til ny versjon, kjør:
 
 ```R
-library(orgdata)
-update_orgdata()
-
-# eller
 orgdata::update_orgdata()
 ```
 - For mer detaljert veiledning kan leses [her](https://helseprofil.github.io/orgdata/articles/sepaafil.html "orgdata")
