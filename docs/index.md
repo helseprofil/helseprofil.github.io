@@ -8,7 +8,7 @@ Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjon
 håndboken kan gjøres direkte i [editor på 
 GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
 
-## Hvordan installerer ...
+# Hvordan installerer ...
 
 Installasjon brukes for å sette opp ny maskin eller kjører fersk installasjon.
 Det er viktig at du må først installere **Git** fra SoftwareCenter.
@@ -44,7 +44,7 @@ orgdata::update_orgdata()
 ```
 - For mer detaljert veiledning kan leses [her](https://helseprofil.github.io/orgdata/articles/sepaafil.html "orgdata")
 
-## Hvordan bruker ...
+# Hvordan bruker ...
 
 ### KHfunctions
 - Sjekk at du er i prosjekt for *khfunctions*.
@@ -62,7 +62,7 @@ kh_source(repo = "khfunctions", branch = "master", file = "KHfunctions.R", encod
 - Du må gjøre *orgdata* pakke tilgjenglig ved å kjøre `library(orgdata)`
 - Eksampler til bruk av de funksjonene for orgdata finnes i [SePaaFil.R](https://helseprofil.github.io/orgdata/articles/sepaafil.html)
 
-## Hvordan vedlikeholder ...
+# Hvordan vedlikeholder ...
 
 Dette er relevant hvis du skal oppdatere og vedlikeholde funksjonene i *orgdata* eller *khfunctions*.
 
@@ -71,7 +71,7 @@ source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(orgdata)
 ```
 
-## Load eller installere flere pakker samtidig ... 
+# Load eller installere flere pakker samtidig ... 
 
 Noen ganger trenger man å ha tilgang til flere pakker dvs. både pakker for
 KHelse og andre fra CRAN samtidig. Bruk `kh_load()` til det for å *load* pakker.
