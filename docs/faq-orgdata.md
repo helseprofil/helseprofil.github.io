@@ -18,7 +18,7 @@ legge `LESID` og `FILGRUPPE`.
 
 For å kunne lese en fil flere ganger f.eks annen fane i en Excel fil, kan gjøres
 ved å velge `Rediger` knappen. Valg `FILID` av filen, men IKKE skrive filstien på
-nytt siden det allerede finnes i databasen.
+nytt siden den allerede finnes i databasen ie. original filer.
 
 ### Kan ikke se "" i Access når kodebok for TYPE lik RE defineres
 
