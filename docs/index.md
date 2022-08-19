@@ -37,7 +37,8 @@ kh_restore(khfunctions)
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_install(orgdata)
 ```
-- Du får automatisk beskjed i consolen ved pakke *loading* når det kommer ny release versjon. For å oppdatere til ny versjon, kjør:
+- Du får automatisk beskjed i consolen ved pakke *loading* når det kommer ny
+  release versjon. For å oppdatere til ny versjon manuelt, kjør:
 
 ```R
 orgdata::update_orgdata()
