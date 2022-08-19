@@ -28,6 +28,6 @@ nytt siden det allerede finnes i databasen.
 ### Recode med RE til "" i Access
 
 Når en kolonne skal omkode ved bruk av TYPE lik `RE` til `""` blir likevel ikke
-vises når cursor blir flyttet. Bruk enten `empty` eller `tom` for å gjøre det
+vises når cursor blir flyttet. Skrev enten `empty` eller `tom` i *TIL* for å gjøre det
 tydelig. Selvsagt funker det med `""` også hvis du vil gjøre det vanskelig for deg selv &#128512;
 
