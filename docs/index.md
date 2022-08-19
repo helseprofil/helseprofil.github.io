@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**FAQ:** [KHfunctions](./faq-khfunctions.html) - [orgdata](./faq-orgdata.html) |
+**FAQ:** [KHfunctions](./faq-khfunctions.html) - [orgdata](./faq-orgdata.html) | [Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
 
 Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjonene for KHelse arbeid. For å oppdatere
 håndboken kan gjøres direkte i [editor på 
