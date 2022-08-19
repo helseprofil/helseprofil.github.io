@@ -29,5 +29,5 @@ nytt siden det allerede finnes i databasen.
 
 Når en kolonne skal omkode ved bruk av TYPE lik `RE` til `""` blir likevel ikke
 vises når cursor blir flyttet. Bruk enten `empty` eller `tom` for å gjøre det
-tydelig. Selvsagt funker det med `""` også hvis du vil gjøre det vanskelig for deg selv \U0001F60A
+tydelig. Selvsagt funker det med `""` også hvis du vil gjøre det vanskelig for deg selv &#128512;
 
