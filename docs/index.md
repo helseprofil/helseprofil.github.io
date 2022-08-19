@@ -72,7 +72,7 @@ source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(orgdata)
 ```
 
-# Load eller installere flere pakker samtidig ... 
+# Load og installere flere pakker samtidig ... 
 
 Noen ganger trenger man å ha tilgang til flere pakker dvs. både pakker for
 KHelse og andre fra CRAN samtidig. Bruk `kh_load()` til det for å *load* pakker.
