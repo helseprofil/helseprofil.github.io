@@ -20,7 +20,7 @@ For å kunne lese en fil flere ganger f.eks annen fane i en Excel fil, kan gjør
 ved å velge `Rediger` knappen. Valg `FILID` av filen og IKKE skrive filstien på
 nytt siden det allerede finnes i databasen.
 
-### Recode med RE til "" i Access
+### Recode med TYPE lik `RE`` til `""` i Access
 
 Når en kolonne skal omkode ved bruk av TYPE lik `RE` til `""` blir likevel ikke
 vises når cursor blir flyttet. Skrev enten `empty` eller `tom` i *TIL* for å gjøre det
