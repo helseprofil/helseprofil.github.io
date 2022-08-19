@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**FAQ:** [KHfunctions](./faq-khfunctions.html) [orgdata](./faq-orgdata.html) |
+**FAQ:** [KHfunctions](./faq-khfunctions.html) - [orgdata](./faq-orgdata.html) |
 
 Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjonene for KHelse arbeid. For å oppdatere
 håndboken kan gjøres direkte i [editor på 
@@ -90,4 +90,4 @@ package, men det funker bare for pakker fra CRAN og ikke for de KHelse pakkene. 
 installere `pacman` pakke.
 
 
-**FAQ:** [KHfunctions](./faq-khfunctions.html) [orgdata](./faq-orgdata.html)
+**FAQ:** [KHfunctions](./faq-khfunctions.html) - [orgdata](./faq-orgdata.html)
