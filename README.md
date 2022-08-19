@@ -1,2 +1,2 @@
 # helseprofil.github.io
-Webpage
+Håndbok og veiledning for KHelse relaterte funksjoner og pakker
