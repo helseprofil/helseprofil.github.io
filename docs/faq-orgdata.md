@@ -10,7 +10,7 @@ Noen spørsmål om bruk av orgdata og Access database til orgdata.
 
 ### Advarsel "Kan ikke legge til post(er) ..." i Access
 
-Du får adverselen når du skal legge `LESID` og `FILGRUPPE` etter at du har lagt
+Du får advarselen når du skal legge `LESID` og `FILGRUPPE` etter at du har lagt
 inn `FILNAVN`. Trykk **OK** og flytt cursor ned eller opp. Deretter bør du kunne
 legge `LESID` og `FILGRUPPE`.
 
