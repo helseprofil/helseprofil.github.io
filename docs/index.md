@@ -43,7 +43,7 @@ kh_install(orgdata)
 ```R
 orgdata::update_orgdata()
 ```
-- For mer detaljert veiledning kan leses [her](https://helseprofil.github.io/orgdata/articles/sepaafil.html "orgdata")
+- For mer detaljert veiledning kan leses [her](https://helseprofil.github.io/orgdata "orgdata")
 
 # Hvordan bruker ...
 
@@ -61,7 +61,7 @@ kh_source(repo = "khfunctions", branch = "master", file = "KHfunctions.R", encod
 ### orgdata
 
 - Du må gjøre *orgdata* pakke tilgjenglig ved å kjøre `library(orgdata)`
-- Eksampler til bruk av de funksjonene for orgdata finnes i [SePaaFil.R](https://helseprofil.github.io/orgdata/articles/sepaafil.html)
+- Eksampler til bruk av de funksjonene for orgdata finnes i [SePaaFil.R](https://helseprofil.github.io/orgdata/articles/sepaafil.html "sepaafil")
 
 # Hvordan vedlikeholder ...
 
