@@ -77,7 +77,7 @@ kh_restore(orgdata)
 Noen ganger trenger man å ha tilgang til flere pakker dvs. både pakker for
 KHelse og andre fra CRAN samtidig. Bruk `kh_load()` til det for å *load* pakker.
 Hvis pakker ikke finnes lokalt allerede så skal de installeres automatisk før
-*loading*. Denne funksjonen gjelder bare for pakker tilgjengelig på CRAN og
+*loading*. Denne funksjonen gjelder for pakker tilgjengelig på CRAN og
 KHelse relaterte pakker dvs. `orgdata`, `khompare` etc.
 
 ```R
