@@ -4,14 +4,6 @@ layout: default
 
 [Tilbake](./index.html)
 
-Her finner man spørsmål og løsninger til ymse ting per tema.
-
-# KHfunctions
-
-- bla.. bla..
-
-[Tilbake](./index.html)
-
 # orgdata
 
 Noen spørsmål om bruk av orgdata og Access database til orgdata.
