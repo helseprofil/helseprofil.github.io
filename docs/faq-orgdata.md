@@ -50,8 +50,8 @@ Dette feltet i Access-specen gjør at kolonnehoder i innfilen erstattes med noe 
 ### Error loading "lazy-load database .... is corrupt"
 
 Når man installerer **orgdata** i RStudio kan det opptå feil ved komplilering av dokumentasjonen for `.Rdb` filer. Prøv:
-- Restarte R bl.a ved kjøre `.rs.restartR()`
-- Slett orgdata med `remove.packages()`
+- Restarte R bl.a ved å kjøre `.rs.restartR()`
+- Slett orgdata med `remove.packages("orgdata")`
 - Restarte RStudio
 - Installere **orgdata** på nytt
 
