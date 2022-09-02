@@ -47,4 +47,12 @@ KONKLUSJON:
 MANHEADER:
 Dette feltet i Access-specen gjør at kolonnehoder i innfilen erstattes med noe vi skriver. De "vanskelige" kolonnehodene angis med nummer, og bør gis navn uten ÆØÅ.
 
+### Error loading "lazy-load database .... is corrupt"
+
+Når man installerer **orgdata** i RStudio kan det opptå feil ved komplilering av dokumentasjonen for `.Rdb` filer. Prøv:
+- Restarte R bl.a ved kjøre `.rs.restartR()`
+- Slett orgdata med `remove.packages()`
+- Restarte RStudio
+- Installere **orgdata** på nytt
+
 [Tilbake](./index.html)
