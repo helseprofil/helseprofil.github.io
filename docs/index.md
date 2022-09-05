@@ -21,6 +21,11 @@ source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(khfunctions)
 ```
 - RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og så re-åpne innen *khfunctions* prosjekt.
+For å installere alle de nødvendige pakkene som brukes i *KHfunctions*, kjøre:
+
+```R
+renv::restore()
+```
 
 - I tillegg til ny maskin så trenger du å kjøre komandoen på nytt hvis:
   1. Nye pakker eller pakker versjoner har blitt brukt i `KHfunctions.R`. Du bør få beskjed om dette.
