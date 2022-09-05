@@ -18,8 +18,12 @@ Det er viktig at du må først installere **Git** fra SoftwareCenter.
 
 ```R
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
-kh_restore(khfunctions)
+kh_install(khfunctions)
+
+# Eller
+kh_install(khfunctions, path = "Min/Egen/Path")
 ```
+
 - RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og så re-åpne innen *khfunctions* prosjekt.
 For å installere alle de nødvendige pakkene som brukes i *KHfunctions*, kjøre:
 
@@ -75,6 +79,9 @@ Dette er relevant hvis du skal oppdatere og vedlikeholde funksjonene i *orgdata*
 ```R
 source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_restore(orgdata)
+
+# Eller
+kh_restore(khfunctions)
 ```
 
 # Load og installerer flere pakker samtidig ... 
