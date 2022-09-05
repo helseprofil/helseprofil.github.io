@@ -24,8 +24,8 @@ kh_install(khfunctions)
 kh_install(khfunctions, path = "Min/Egen/Path")
 ```
 
-- RStudio skal restarte når alle pakkene som brukes i *KHfunctions* har blitt installert og så re-åpne innen *khfunctions* prosjekt.
-For å installere alle de nødvendige pakkene som brukes i *KHfunctions*, kjøre:
+- RStudio skal restarte når alle tillegg pakkene har blitt installert og så re-åpne innen *khfunctions* prosjekt.
+For å synkronisere alle pakkeversjoner som brukes i *KHfunctions*, kjør:
 
 ```R
 renv::restore()
