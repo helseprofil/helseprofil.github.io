@@ -21,7 +21,7 @@ source("https://raw.githubusercontent.com/helseprofil/misc/main/utils.R")
 kh_install(khfunctions)
 
 # Eller
-kh_install(khfunctions, path = "Min/Egen/Path")
+kh_install(khfunctions, path = "C:/Min/Favoritt/Path")
 ```
 
 - RStudio skal restarte når alle tillegg pakkene har blitt installert og så re-åpne innen *khfunctions* prosjekt.
