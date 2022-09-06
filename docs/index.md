@@ -23,7 +23,7 @@ kh_install(khfunctions)
 # Eller
 kh_install(khfunctions, path = "C:/Min/Favoritt/Path")
 ```
-
+- Standard path blir `C:/Users/DittBrukernavn/helseprofil` hvis argument `path` ikke er spesifisert.
 - RStudio skal restarte når alle tillegg pakkene har blitt installert og så re-åpne innen *khfunctions* prosjekt.
 For å synkronisere alle pakkeversjoner som brukes i *KHfunctions*, kjør:
 
