@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 
 title: [KHelse Håndbok]
-description: [Veiledning for å bruke og vedlikeholde pakker og funksjoner]
+description: [Veiledning for å bruke og vedlikeholde pakker og funksjoner i KHelse]
 logo: /img/logo.jpeg
 
 sidebar:
