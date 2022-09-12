@@ -55,4 +55,18 @@ Når man installerer **orgdata** i RStudio kan det opptå feil ved komplilering 
 - Restarte RStudio
 - Installere **orgdata** på nytt
 
+### Error with `rlang`
+
+Hvis du får denne feilmelding om `rlang` versjon
+
+```r
+> library(orgdata)
+Error: package or namespace load failed for ‘orgdata’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ namespace ‘rlang’ 1.0.2 is being loaded, but >= 1.0.5 is required
+```
+
+Slett eller uninstall `rlang` med `remove.packages("rlang")`.
+Installere på nytt med `install.packages("rlang")`
+
+
 [Tilbake](./index.html)
