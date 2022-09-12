@@ -66,7 +66,9 @@ Error: package or namespace load failed for ‘orgdata’ in loadNamespace(i, c(
 ```
 
 Slett eller uninstall `rlang` med `remove.packages("rlang")`.
-Installere på nytt med `install.packages("rlang")`
+Installere på nytt med `install.packages("rlang")`.
+
+Hvis det ikke løser problemmet, slett alle pakke mappen enn den R versjon du bruker. Mappen for R pakker ligger i `C:\Program Files\R`.
 
 
 [Tilbake](./index.html)
