@@ -14,6 +14,7 @@ Installasjon brukes for å sette opp ny maskin eller kjører fersk installasjon.
 Det er viktig at du må først installere **Git** fra SoftwareCenter.
 
 ### KHfunctions
+- Sjekk at du ikke er i et prosjekt.
 - Kjør:
 
 ```R
