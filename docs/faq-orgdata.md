@@ -45,7 +45,11 @@ KONKLUSJON:
 -	I fremtiden bør vi nok alle oppdatere til siste versjon av R, men da må vi først få orden på encodingen slik at det ikke dukker opp mer problemer. 
 
 MANHEADER:
-Dette feltet i Access-specen gjør at kolonnehoder i innfilen erstattes med noe vi skriver. De "vanskelige" kolonnehodene angis med nummer, og bør gis navn uten ÆØÅ.
+Dette feltet i Access-specen gjør at kolonnehoder i innfilen erstattes med noe vi skriver. 
+De "vanskelige" kolonnehodene angis med nummer, og bør gis navn uten ÆØÅ.
+
+Fra versjon 1.2.1 kan man bruke *regulært uttrykk* i MANHEADER også f.eks ^utdan=UTDANNING for å 
+gi nytt navn for kolonne som heter `utdanning for alle` til `UTDANNING`. 
 
 ### Error loading "lazy-load database .... is corrupt"
 
