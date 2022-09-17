@@ -48,7 +48,7 @@ MANHEADER:
 Dette feltet i Access-specen gjør at kolonnehoder i innfilen erstattes med noe vi skriver. 
 De "vanskelige" kolonnehodene angis med nummer, og bør gis navn uten ÆØÅ.
 
-Fra versjon 1.2.1 kan man bruke *regulært uttrykk* i MANHEADER også f.eks ^utdan=UTDANNING for å 
+Fra versjon 1.2.1 kan man bruke *regulært uttrykk* i MANHEADER også f.eks `^utdan=UTDANNING` for å 
 gi nytt navn for spesielle kolonne f.eks `utdanning før migrasjon` til `UTDANNING`. 
 
 ### Error loading "lazy-load database .... is corrupt"
