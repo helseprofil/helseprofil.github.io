@@ -1,5 +1,9 @@
 ---
 layout: default
+title: Start
+nav_order: 1
+description: "Startside"
+permalink: /
 ---
 
 **FAQ:** [KHfunctions](./faq-khfunctions.html) - [orgdata](./faq-orgdata.html) | [Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
