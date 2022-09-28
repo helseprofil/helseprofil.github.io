@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "FAQ orgdata"
+nav_order: 3
 ---
 
 [Tilbake](./index.html) | [Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-orgdata.md)

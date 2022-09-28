@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "FAQ KHfunctions"
+nav_order: 2
 ---
 
 [Tilbake](./index.html) | [Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-khfunctions.md)
