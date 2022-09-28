@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Start
+title: Startside
 nav_order: 1
 description: "Startside"
 permalink: /
