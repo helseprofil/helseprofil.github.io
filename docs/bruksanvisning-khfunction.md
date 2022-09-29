@@ -415,7 +415,7 @@ Feltene lengre til høyre ble ikke forklart i første gjennomgang.
 > Det er tre tilfeller:
 
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
-| **Alle kommuner, PLUSS bydeler:**                        | **Bare bydeler for de aktuelle kommunene, vanlig koding:** | **Noen har seks sifre hele veien:** |
+| **Alle kommuner,<b>PLUSS bydeler:**                        | **Bare bydeler for de <b>aktuellekommunene,<b>vanlig koding:** | **Noen har seks<b>sifre hele veien:** |
 +==========================================================+============================================================+=====================================+
 | 0104                                                     | 0104                                                       | 010400                              |
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
@@ -429,11 +429,11 @@ Feltene lengre til høyre ble ikke forklart i første gjennomgang.
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
 | 0402                                                     | 0402                                                       | 040200                              |
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
-| = IKKE soner.                                            | = SONER.                                                   | =SONER.                             |
+| = IKKE soner.<b>                                            | = SONER.<b>                                                   | =SONER.<b>                             |
 |                                                          |                                                            |                                     |
-| Skriv ingen ting i SONER-feltet.                         | Angis som «4,6».                                           | Angis som «6».                      |
+| Skriv ingen ting i<b> SONER-feltet.                         | Angis som «4,6».                                           | Angis som «6».                      |
 |                                                          |                                                            |                                     |
-| Da vet systemet (by default) at 4 siffer =K, 6 siffer=B. |                                                            |                                     |
+| Da vet systemet<b> (by default) at 4<b> siffer =K, 6 siffer=B. |                                                            |                                     |
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
 
 ### Grunnkretser:
