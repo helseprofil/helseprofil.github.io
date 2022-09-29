@@ -4,8 +4,6 @@ title: "FAQ orgdata"
 nav_order: 3
 ---
 
-[Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-orgdata.md)
-
 # orgdata
 
 Noen spørsmål om bruk av orgdata og Access database til orgdata.
@@ -76,3 +74,4 @@ Installere på nytt med `install.packages("rlang")`.
 
 Hvis det ikke løser problemmet, slett alle pakke mappen enn den R versjon du bruker. Mappen for R pakker ligger i `C:\Program Files\R`. Deretter installere `rlang` på nytt.
 
+[Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-orgdata.md)
