@@ -20,7 +20,7 @@ Oversikt
 
 [Innlesing av filer 3]
 
-[Kubeproduksjon (dvs. all output) 13]
+[Kubeproduksjon (dvs. all output) 13](#kubeproduksjon)
 
 [Eksempel på kompleks indikator: INNTULIKHET 21]
 
@@ -568,6 +568,7 @@ Da bruker vi alle årgangene i nyeste fil, for å få med oppdateringer i regist
 
 -   Sett i KODEBOK, på DELID for eldste fil: I variabel AAR skal 2016 (og 2017 osv) kodes til \"-\" (strek). Da slettes disse årene i innlesingen.
 
+<a name="kubeproduksjon"/>
 Kubeproduksjon (dvs. all output)
 ================================
 
