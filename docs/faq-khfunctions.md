@@ -12,11 +12,11 @@ Her finner man spørsmål og løsninger til ymse problemer for *KHfunctions*.
 
 Hvis du får feilmelding når du kjører `kh_install(khfunctions)` kan du gjøre en av disse:
 
-1. Slett mappen `khfunctions` fra `C:\Users\DinBrukerNavn\helseprofil`.
+1. Slett mappen `khfunctions` fra `C:/Users/DinBrukerNavn/helseprofil`.
 2. Spesifisere `path` der du vil installere `khfunctions` eg.
 
 ```r
-kh_install(khfunctions, path = "C:\Users\You\FolderName")
+kh_install(khfunctions, path = "C:/Users/You/FolderName")
 ```
 
 
