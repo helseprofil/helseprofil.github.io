@@ -424,7 +424,7 @@ Feltene lengre til høyre ble ikke forklart i første gjennomgang.
 | 030101                                                   | 030101                                                     | 030101                              |
 | 030102                                                   | 030102                                                     | 030102                              |
 | 0402                                                     | 0402                                                       | 040200                              |
-| = IKKE soner.<br> Skriv ingen ting i<br> SONER-feltet.<br> Da vet systemet<br> (by default) at 4<br> siffer =K, 6 siffer=B. | = SONER.<br> Angis som «4,6».<br>  | =SONER.<br>Angis som «6». |
+| = IKKE soner.<br> Skriv ingen ting i SONER-feltet.<br> Da vet systemet (by default) at 4<br> siffer =K, 6 siffer=B. | = SONER.<br> Angis som «4,6».<br>  | =SONER.<br>Angis som «6». |
 
 ### Grunnkretser:
 
