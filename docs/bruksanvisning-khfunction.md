@@ -10,7 +10,7 @@ Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning.
 
 **OBS!** Denne filen er rent konvertering fra *.docx* fil til *.md* med veldig
 begrenset redigering ble gjort &#128546; Bruk heller *søker* funksjon ovenfor for
-å finne ut det du letter etter. Du kan også se på [pdf-fil](../docs/extra/Brukerveiledning.pdf)
+å finne ut det du letter etter. Du kan også se på [pdf-fil](./extra/Brukerveiledning.pdf)
 
 
 Oversikt 
