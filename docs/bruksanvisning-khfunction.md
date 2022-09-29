@@ -588,14 +588,14 @@ Her er en del faste koder for standarddimensjonene definert. De stemmer for det 
 
 ### Felter:
 
-  DEL   (som betyr)    KODE, LABEL
-  ----- -------------- -------------------------------------------------------------------------------
-  A     Alder          888\_888 Ugyldig, 999\_999 Ukjent
-  Gn    Geonivå        L land, H Hreg, F fylke, K kommune, B bydel, S sone, G grunnkrets, U ugyldig.
-  K     Kjønn          0 kjønn samlet, 1 menn, 2 kvinner, 8 ugyldig, 9 ukjent.
-  L     Landbakgrunn   (se kodeliste nederst i filen)
-  S     Sivilstand     (se kodeliste nederst i filen)
-  U     Utdanning      (se kodeliste nederst i filen)
+ | DEL  | (som betyr)   | KODE, LABEL |
+ | :-----| :--------------| :----------------------------------|
+ | A    | Alder         | 888\_888 Ugyldig, 999\_999 Ukjent|
+ | Gn   | Geonivå       | L land, H Hreg, F fylke, K kommune,<br> B bydel, S sone, G grunnkrets, U ugyldig.|
+ | K    | Kjønn         | 0 kjønn samlet, 1 menn, 2 kvinner, <br>8 ugyldig, 9 ukjent.|
+ | L    | Landbakgrunn  | (se kodeliste nederst i filen)|
+ | S    | Sivilstand    | (se kodeliste nederst i filen)|
+ | U    | Utdanning     | (se kodeliste nederst i filen)|
 
 5b. Kodebok:
 ------------
