@@ -1,14 +1,17 @@
 ---
 layout: default
-title: 'Brukerveiledning KHfunctions Access'
+title: 'KHfunctions Access'
 nav_order: 6
 ---
 
-Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning
+*(Filversjon 1, 15.4.2015 -- men oppdatert med detaljer innimellom)*
 
-(Filversjon 1, 15.4.2015 -- men oppdatert med detaljer innimellom)
+Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning. **OBS!**
+Denne filen er rent konvertering fra *.docx* fil til *.md* uten at noe
+redigering er gjort &#128546;
 
-Oversikt {#oversikt .TOC-Heading}
+
+Oversikt 
 ========
 
 [Innledning 2]
@@ -25,7 +28,7 @@ Oversikt {#oversikt .TOC-Heading}
 
 [Kodeverk og systemverdier 22]
 
-Innhold {#innhold .TOC-Heading}
+Innhold 
 =======
 
 [Innledning 2]
