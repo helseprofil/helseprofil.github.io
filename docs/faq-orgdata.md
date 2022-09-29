@@ -4,7 +4,7 @@ title: "FAQ orgdata"
 nav_order: 3
 ---
 
-[Tilbake](./index.html) | [Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-orgdata.md)
+[Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-orgdata.md)
 
 # orgdata
 
@@ -76,5 +76,3 @@ Installere på nytt med `install.packages("rlang")`.
 
 Hvis det ikke løser problemmet, slett alle pakke mappen enn den R versjon du bruker. Mappen for R pakker ligger i `C:\Program Files\R`. Deretter installere `rlang` på nytt.
 
-
-[Tilbake](./index.html)
