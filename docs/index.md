@@ -6,8 +6,6 @@ description: "Startside"
 permalink: /
 ---
 
-[Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
-
 Her finner du veiledning om hvordan du kan installere pakker eller bruke funkjonene for KHelse arbeid. For å oppdatere
 håndboken kan gjøres direkte i [editor på 
 GitHub](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
@@ -107,3 +105,4 @@ Den nesten samme funksjonen kan også oppnås ved å bruke `p_load()` fra
 package, men det funker bare for pakker fra CRAN og ikke for de KHelse pakkene. I tillegg må man først
 installere `pacman` pakke.
 
+[Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/index.md)
