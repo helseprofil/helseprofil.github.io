@@ -30,122 +30,6 @@ Oversikt
 
 [Kodeverk og systemverdier 22]
 
-Innhold 
-=======
-
-[Innledning 2]
-
-[Access-database, path: 2]
-
-[Se også nederst! 3]
-
-[Begreper 3]
-
-[Arbeidsprinsipp 3]
-
-[Pass på: 3]
-
-[Innlesing av filer 3]
-
-[1. Tabell FILGRUPPER: 3]
-
-[Dersom vi får en ny dataleveranse med samtlige årganger, men nytt format: 4]
-
-[2. Skjema StyrFILGRUPPER: 4]
-
-[Bruk: 5]
-
-[Feltene vi må forholde oss til: 5]
-
-[Tabell 1: 5]
-
-[Tabell 2 (INNLESING): Selve innlesingsspec'en. 6]
-
-[Soner: 8]
-
-[Grunnkretser: 8]
-
-[Andre kommuner enn bydels-byene: 8]
-
-[Trengs Reshape av to ting samtidig? 8]
-
-[Innlesingsargumenter (INNLESARG), syntaks: 9]
-
-[Hvis samme inndatafil skal brukes i flere filgrupper (eller flere innlesingsspec'er): 9]
-
-[Bruk av RSYNT- (Statasynt-) punkter: 10]
-
-[3. Kjør innlesing med disse parameterne: 10]
-
-[I RStudio: 10]
-
-[4. Sjekk resultatet: Skjema LOGGskjema 11]
-
-[5a. Faste koder: Endres ikke. 11]
-
-[Felter: 11]
-
-[5b. Kodebok: 12]
-
-[Legge inn ny kode: Tabell KODEBOK 12]
-
-[Sjekke hvordan det gikk: Tabell KODEBOK\_LOGG\_se 12]
-
-[Gjelder dette nå, etter at \"versjonering=TRUE\" er satt som default? MEN SÅ MÅ FILGRUPPEN LAGES I R! 12]
-
-[SPESIELLE TRIKS OSV 13]
-
-[Gjenbruke en innlesingsspec: Samme innfil i to filgrupper 13]
-
-[Begrense tidsserien i én ORGfil, når to ORGfiler har overlappende data: Bruk KODEBOK 13]
-
-[Kubeproduksjon (dvs. all output) 13]
-
-[1. Tabell TNP\_PROD 14]
-
-[2. Tabell KUBER 14]
-
-[Felter: 14]
-
-[Fylles ut når kuben skal direktestandardiseres i Stata (brukes i NH): 16]
-
-[Syntaks for Stata\_TAB1: 17]
-
-[HVIS INDIKATOREN SKAL VISES I BAROMETERET: Tabell FRISKVIK 17]
-
-[Feltene: 17]
-
-[(Feilmelding ved kjøring: 19]
-
-[3. FOR Å KJØRE: 20]
-
-[4. PROBLEMLØSING/FEILSØKING 20]
-
-[Ta runtimedump: 20]
-
-[Skrive selve filgruppen til en CSV-fil, direkte fra R: 20]
-
-[Rydde buffer: 21]
-
-[Friske opp globale bakgrunnsdata: 21]
-
-[Uforklarlig prikking av sammenslåtte Geo? 21]
-
-[Eksempel på kompleks indikator: INNTULIKHET 21]
-
-[Sammenhengen mellom fil-elementene (til bruk ved f.eks. kval.kontroll) 21]
-
-[Statusinformasjon om hver indikator 22]
-
-[Kodeverk og systemverdier 22]
-
-[Interne koder for de ulike elementene (kolonnene) i en tabell: 22]
-
-[Landbakgrunn, koder i KH\_KODER: 23]
-
-[Sivilstand, koder i KH\_KODER: 23]
-
-[Utdanning, koder i KH\_KODER: 23]
 
 Innledning
 ==========
@@ -153,7 +37,7 @@ Innledning
 Access-database, path:
 ----------------------
 
-[\\\\fhi.no\\Felles\\Forskningsprosjekter\\PDB 2455 - Helseprofiler og til\_\\PRODUKSJON\\STYRING\\KHELSA.mdb]
+*\\\\fhi.no\\Felles\\Forskningsprosjekter\\PDB 2455 - Helseprofiler og til\_\\PRODUKSJON\\STYRING\\KHELSA.mdb*
 
 Kåre bemerket (jun-2016) at han med hensikt hadde holdt seg til det gamle Access-filformatet .mdb, og ikke brukt .accdb fra Office 2010. Han mente det var kommet til ytterligere bells and whistles i grensesnittet i det nye formatet, som ville heve brukerterskelen.
 
