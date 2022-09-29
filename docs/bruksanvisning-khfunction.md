@@ -7,7 +7,7 @@ nav_order: 6
 *(Filversjon 1, 15.4.2015 -- men oppdatert med detaljer innimellom)*
 
 Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning. **OBS!**
-Denne filen er rent konvertering fra *.docx* fil til *.md* uten at noe
+Denne filen er rent konvertering fra *.docx* fil til *.md* med veldig begrenset
 redigering er gjort &#128546;
 
 
@@ -415,7 +415,8 @@ Feltene lengre til høyre ble ikke forklart i første gjennomgang.
 > Det er tre tilfeller:
 
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
-| **Alle kommuner,<b>PLUSS bydeler:**                        | **Bare bydeler for de <b>aktuellekommunene,<b>vanlig koding:** | **Noen har seks<b>sifre hele veien:** |
+| **Alle kommuner,**<b/>**PLUSS bydeler:**                 | **Bare bydeler for de**<b/>**aktuellekommunene,**<b/>**    | **Noen har seks**<b/>               |
+|                                                          | **vanlig koding:**                                         | **sifre hele veien:**               |
 +==========================================================+============================================================+=====================================+
 | 0104                                                     | 0104                                                       | 010400                              |
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
@@ -429,11 +430,10 @@ Feltene lengre til høyre ble ikke forklart i første gjennomgang.
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
 | 0402                                                     | 0402                                                       | 040200                              |
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
-| = IKKE soner.<b>                                            | = SONER.<b>                                                   | =SONER.<b>                             |
-|                                                          |                                                            |                                     |
-| Skriv ingen ting i<b> SONER-feltet.                         | Angis som «4,6».                                           | Angis som «6».                      |
-|                                                          |                                                            |                                     |
-| Da vet systemet<b> (by default) at 4<b> siffer =K, 6 siffer=B. |                                                            |                                     |
+| = IKKE soner.<b/>                                        | = SONER.<b/>                                               | =SONER.<b/>                         |
+| Skriv ingen ting i<b/> SONER-feltet.<b/>                 | Angis som «4,6».                                           | Angis som «6».                      |
+| Da vet systemet<b/> (by default) at 4<b/>                |                                                            |                                     |
+| siffer =K, 6 siffer=B.                                   |                                                            |                                     |
 +----------------------------------------------------------+------------------------------------------------------------+-------------------------------------+
 
 ### Grunnkretser:
