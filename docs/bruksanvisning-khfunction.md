@@ -1120,18 +1120,14 @@ Dersom det ikke har vært endringer i hvordan en filgruppe ser ut, går det an �
 
 I tabellen brukes notasjon: TABELLNAVN -- FELTNAVN.
 
-+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 | **Fil:**                                                                  | **Navnet defineres hvor:**                                                                                       | **Fil som er grunnlag:**                                                  |
-+===========================================================================+==================================================================================================================+===========================================================================+
+|:--------------------------|:--------------------------------------|:--------------------------------------|
 | Ferdig kubedatafil til statistikkbanken <br>(\"kube\", output fra R-systemet) | Defineres i tabell KUBER -- KUBE\_NAVN.                                                                          | Bygger på en TNP-fil, angitt <br>i KUBER -- TNP.                              |
-+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 | TNP-fil                                                                   | Defineres i tabell TNP\_PROD -- TNP\_NAVN.                                                                       | Bygger på en tellerfil, angitt i <br>TNP\_PROD -- TELLERFIL, <br>                 |
 |                                                                           |                                                                                                                  | og evt. en nevnerfil angitt i <br>                                            |
 |                                                                           |                                                                                                                  | -- NEVNERFIL.                                                             |
-+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 | Tellerfilen =en filgruppe                                                 | Defineres normalt i tabell FILGRUPPER <br>-- FILGRUPPE, som regel i skjemaet <br>STYRING\\StyrFILGRUPPER øverste tabell. | Bygger på én eller flere inndatafiler <br>(ORGfiler), som angis i -- FILNAVN. <br>|
 |                                                                           | (Kan evt. defineres i FILFILTRE, dvs. <br>lages runtime. Det er mer aktuelt <br>for nevnerfilen.)                        | Disse har hver sin IBrukFra og <br>IBrukTil-dato.                             |
-+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 
 Både ferdig kubedatafil, TNP-fil og tellerfilen (filgruppen) har ofte SAMME NAVN i Access. Det ødelegger \"selvforklarende\"-prinsippet, men er greiest i daglig bruk.
 
