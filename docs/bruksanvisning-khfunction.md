@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Access for KHfunctions"
-nav_order: 6
+nav_order: 2
 ---
 
 *(Filversjon 1, 15.4.2015 -- men oppdatert med detaljer innimellom)*
