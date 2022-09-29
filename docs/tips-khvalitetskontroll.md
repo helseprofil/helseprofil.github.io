@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "KHvalitetskontroll"
+title: "KHvalitetskontroll" 
 parent: "Tips and Tricks"
 nav_order: 3
 ---
 
-Bla.. bla.. bla..
+Bla.. bla.. bla.. 
