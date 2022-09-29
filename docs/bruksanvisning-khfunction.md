@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'KHfunctions Access'
+title: "Access for KHfunctions"
 nav_order: 6
 ---
 
