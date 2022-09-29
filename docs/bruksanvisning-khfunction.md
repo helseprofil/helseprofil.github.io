@@ -24,7 +24,7 @@ Oversikt
 
 [Eksempel på kompleks indikator: INNTULIKHET 21]
 
-[Sammenhengen mellom fil-elementene (til bruk ved f.eks. kval.kontroll) 21](#sammenhengen-mellom-fil-elementene-til-bruk-ved-f.eks.-kval.kontroll)
+[Sammenhengen mellom fil-elementene (til bruk ved f.eks. kval.kontroll) 21](#sammenhengen)
 
 [Statusinformasjon om hver indikator 22]
 
@@ -1000,6 +1000,9 @@ Inndata: Måltallene Ginikoeffisient og P90/P10 kommer i hver sine filer, som m�
 Ønsket kube: Med de to måltallene i hver sin kolonne.
 
 I Filgruppen har vi én verdikolonne, og en ekstradimensjon som forteller hvilken rad som er Gini og hvilken P9010. Dette må splittes opp i kubeproduksjonen, og dimensjonen droppes.
+
+
+<a name="sammenhengen"/>
 
 Sammenhengen mellom fil-elementene (til bruk ved f.eks. kval.kontroll)
 ======================================================================
