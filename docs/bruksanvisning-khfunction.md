@@ -1148,57 +1148,33 @@ Gn = Geonivå, Y = År, osv.
 Landbakgrunn, koder i KH\_KODER:
 --------------------------------
 
-KODE LABEL
-
-0 ALLE
-
-1 Europa unntatt Tyrkia
-
-2 Afrika
-
-3 Asia med Tyrkia
-
-4 Nord- Amerika
-
-5 Sør- og Mellom- Amerika
-
-6 Oseania
-
-7 Statsløse
-
-8 Uoppgitt
-
-9 Andre
-
-88 Ugyldig
-
--1 Norge
-
-100 Innvandrere
-
-1B Europa unntatt Tyrkia\_innvand
-
-1C Europa unntatt Tyrkia\_norskf
-
-2B Afrika\_innvand
-
-2C Afrika\_norskf
-
-3B Asia med Tyrkia\_innvand
-
-3C Asia med Tyrkia\_norskf
-
-4B Nord- Amerika\_innvand
-
-4C Nord- Amerika\_norskf
-
-5B Sør- og Mellom- Amerika\_innvand
-
-5C Sør- og Mellom- Amerika\_norskf
-
-6B Oseania\_innvand
-
-6C Oseania\_norskf
+| KODE | LABEL |
+|:--|:--|
+| 0 | ALLE |
+| 1 | Europa unntatt Tyrkia |
+| 2 | Afrika |
+| 3 | Asia med Tyrkia |
+| 4 | Nord- Amerika |
+| 5 | Sør- og Mellom- Amerika |
+| 6 | Oseania |
+| 7 | Statsløse |
+| 8 | Uoppgitt |
+| 9 | Andre |
+| 88 | Ugyldig |
+| -1 | Norge |
+| 100 | Innvandrere |
+| 1B | Europa unntatt Tyrkia\_innvand |
+| 1C | Europa unntatt Tyrkia\_norskf |
+| 2B | Afrika\_innvand |
+| 2C | Afrika\_norskf |
+| 3B | Asia med Tyrkia\_innvand |
+| 3C | Asia med Tyrkia\_norskf |
+| 4B | Nord- Amerika\_innvand |
+| 4C | Nord- Amerika\_norskf |
+| 5B | Sør- og Mellom- Amerika\_innvand |
+| 5C | Sør- og Mellom- Amerika\_norskf |
+| 6B | Oseania\_innvand |
+| 6C | Oseania\_norskf |
 
 Sivilstand, koder i KH\_KODER:
 ------------------------------
