@@ -74,4 +74,3 @@ Installere på nytt med `install.packages("rlang")`.
 
 Hvis det ikke løser problemmet, slett alle pakke mappen enn den R versjon du bruker. Mappen for R pakker ligger i `C:\Program Files\R`. Deretter installere `rlang` på nytt.
 
-[Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-orgdata.md)

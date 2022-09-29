@@ -16,4 +16,3 @@ Hvis du får feilmelding når du kjører `kh_install(khfunctions)` kan du gjøre
 2. Spesifisere `path` der du vil installere `khfunctions`.
 
 
-[Rediger](https://github.com/helseprofil/helseprofil.github.io/edit/main/docs/faq-khfunctions.md)
