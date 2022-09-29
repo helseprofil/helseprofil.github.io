@@ -16,19 +16,19 @@ begrenset redigering er gjort &#128546; Bruk heller *søker* funksjon ovenfor fo
 Oversikt 
 ========
 
-[Innledning 2]
+[Innledning]
 
-[Innlesing av filer 3]
+[Innlesing av filer]
 
-[Kubeproduksjon (dvs. all output) 13](#kubeproduksjon)
+[Kubeproduksjon (dvs. all output)](#kubeproduksjon)
 
-[Eksempel på kompleks indikator: INNTULIKHET 21]
+[Eksempel på kompleks indikator: INNTULIKHET]
 
-[Sammenhengen mellom fil-elementene (til bruk ved f.eks. kval.kontroll) 21](#sammenhengen)
+[Sammenhengen mellom fil-elementene (til bruk ved f.eks. kval.kontroll)](#sammenhengen)
 
-[Statusinformasjon om hver indikator 22]
+[Statusinformasjon om hver indikator]
 
-[Kodeverk og systemverdier 22]
+[Kodeverk og systemverdier]
 
 
 Innledning
