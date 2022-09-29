@@ -6,7 +6,7 @@ nav_order: 3
 
 # orgdata
 
-Noen spørsmål om bruk av orgdata og Access database til orgdata.
+Noen spørsmål om bruk av *orgdata* og Access database til *orgdata*.
 
 ### Advarsel "Kan ikke legge til post(er) ..." i Access
 
