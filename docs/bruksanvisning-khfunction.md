@@ -6,9 +6,11 @@ nav_order: 2
 
 *(Filversjon 1, 15.4.2015 -- men oppdatert med detaljer innimellom)*
 
-Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning. **OBS!**
-Denne filen er rent konvertering fra *.docx* fil til *.md* med veldig begrenset
-redigering er gjort &#128546;
+Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning. 
+
+**OBS!** Denne filen er rent konvertering fra *.docx* fil til *.md* med veldig
+begrenset redigering er gjort &#128546; Bruk heller *søker* funksjon ovenfor for
+å finne ut det du letter etter.
 
 
 Oversikt 
