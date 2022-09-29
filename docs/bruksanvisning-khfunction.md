@@ -9,27 +9,30 @@ nav_order: 2
 Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning. 
 
 **OBS!** Denne filen er rent konvertering fra *.docx* fil til *.md* med veldig
-begrenset redigering er gjort &#128546; Bruk heller *søker* funksjon ovenfor for
+begrenset redigering ble gjort &#128546; Bruk heller *søker* funksjon ovenfor for
 å finne ut det du letter etter.
 
 
 Oversikt 
 ========
 
-[Innledning]
+[Innledning](#innledning)
 
-[Innlesing av filer]
+[Innlesing av filer](#innlesing)
 
 [Kubeproduksjon (dvs. all output)](#kubeproduksjon)
 
-[Eksempel på kompleks indikator: INNTULIKHET]
+[Eksempel på kompleks indikator: INNTULIKHET](#inntulikhet)
 
 [Sammenhengen mellom fil-elementene (til bruk ved f.eks. kval.kontroll)](#sammenhengen)
 
-[Statusinformasjon om hver indikator]
+[Statusinformasjon om hver indikator](#statusinformasjon)
 
-[Kodeverk og systemverdier]
+[Kodeverk og systemverdier](#kodeverk)
 
+
+
+<a name="innledning"/>
 
 Innledning
 ==========
@@ -78,6 +81,9 @@ Pass på:
 Klikk alltid «Oppdater alt»-knappen for HVER tabell (etc) jeg er inne og redigerer i! Hvis jeg bare bytter til en annen tabell, har jeg opplevd at siste innlagte verdi ikke blir lagret.
 
 OG gå ut av den raden du har redigert i, så den ikke står i redigeringsmodus, FØR du klikker Oppdater.
+
+
+<a name="innlesing"/>
 
 Innlesing av filer
 ==================
@@ -992,6 +998,9 @@ Men for å være helt sikker, er det lurt å restarte R helt! Og da uten å lagr
 
 Sjekk at alle VAL-tallene er satt som \"sumbar\" i tabell FILGRUPPER. Hvis ikke, kan jo ikke tallet for to gamle kommuner summeres til den nye -- og da vil prikkerutinen slette resten av tallene på samme linje.
 
+
+<a name="inntulikhet"/>
+
 Eksempel på kompleks indikator: INNTULIKHET
 ===========================================
 
@@ -1019,12 +1028,18 @@ I tabellen brukes notasjon: TABELLNAVN -- FELTNAVN.
 
 Både ferdig kubedatafil, TNP-fil og tellerfilen (filgruppen) har ofte SAMME NAVN i Access. Det ødelegger \"selvforklarende\"-prinsippet, men er greiest i daglig bruk.
 
+
+<a name="statusinformasjon"/>
+
 Statusinformasjon om hver indikator
 ===================================
 
 Prosess: Innsamling av data, innlesing av originalfiler -\> filgruppe, produksjon av kubedatafiler/Friskvikfiler, kvalitetskontroll av output. Hvor langt hver indikator er kommet, kan leses ??
 
 Tabell KUBESTATUS (KH2020\_KUBESTATUS etc) viser prosessen med kvalitetskontroll av ferdig kube.
+
+
+<a name="kodeverk"/>
 
 Kodeverk og systemverdier
 =========================
