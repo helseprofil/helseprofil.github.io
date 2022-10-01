@@ -1085,23 +1085,16 @@ Landbakgrunn, koder i KH\_KODER:
 Sivilstand, koder i KH\_KODER:
 ------------------------------
 
-KODE LABEL
-
-0 ALLE
-
-1 Ugift
-
-2 Gift
-
-3 Enke/ enkemann
-
-4 Skilt/ separert
-
-5 Annen
-
-8 Ugyldig
-
-9 Ukjent
+| KODE | LABEL |
+|--|:--|
+| 0 | ALLE |
+| 1 | Ugift |
+| 2 | Gift |
+| 3 | Enke/ enkemann |
+| 4 | Skilt/ separert |
+| 5 | Annen |
+| 8 | Ugyldig |
+| 9 | Ukjent |
 
 Utdanning, koder i KH\_KODER:
 -----------------------------
