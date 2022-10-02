@@ -1085,8 +1085,8 @@ Landbakgrunn, koder i KH\_KODER:
 Sivilstand, koder i KH\_KODER:
 ------------------------------
 
-| KODE | LABEL    |
-|:--:|:-----------|
+| KODE | LABEL             |
+|:--:|:-----------------------|
 | 0 | ALLE |
 | 1 | Ugift |
 | 2 | Gift |
