@@ -1099,7 +1099,7 @@ Sivilstand, koder i KH\_KODER:
 Utdanning, koder i KH\_KODER:
 -----------------------------
 
-| KODE LABEL             |
+| KODE | LABEL             |
 |:--:|:-----------------------| 
 | 0 | ALLE |
 | 1 | Grunnskole |
