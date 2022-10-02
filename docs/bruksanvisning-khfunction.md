@@ -1055,7 +1055,7 @@ Landbakgrunn, koder i KH\_KODER:
 --------------------------------
 
 | KODE | LABEL |
-|:--|:--|
+|:--:|:--|
 | 0 | ALLE |
 | 1 | Europa unntatt Tyrkia |
 | 2 | Afrika |
