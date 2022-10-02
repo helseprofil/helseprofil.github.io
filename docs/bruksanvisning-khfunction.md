@@ -1099,25 +1099,17 @@ Sivilstand, koder i KH\_KODER:
 Utdanning, koder i KH\_KODER:
 -----------------------------
 
-KODE LABEL
-
-0 ALLE
-
-1 Grunnskole
-
-2 Videregående skole
-
-3 Universitets/ høyskoleutdanning
-
-4 Annet (ingen/ uoppgitt)
-
-8 Ugyldig
-
-9 Ukjent
-
-23 VidergåendeOgHøyere
-
-123 Oppgitt
+| KODE LABEL             |
+|:--:|:-----------------------| 
+| 0 | ALLE |
+| 1 | Grunnskole |
+| 2 | Videregående skole |
+| 3 | Universitets/ høyskoleutdanning |
+| 4 | Annet (ingen/ uoppgitt) |
+| 8 | Ugyldig |
+| 9 | Ukjent |
+| 23 | VidergåendeOgHøyere |
+| 123 | Oppgitt |
 
 (NB: Her bruker vi ofte 3 = Univ/Høy, kort og 4 = Univ/Høy, lang. )
 
