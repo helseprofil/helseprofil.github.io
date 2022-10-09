@@ -2,7 +2,7 @@
 layout: default
 title: "Load"
 parent: "Startside"
-nav_order: 3  
+nav_order: 4  
 ---
 
 # Load og installerer flere pakker samtidig ... 
