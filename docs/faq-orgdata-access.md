@@ -21,7 +21,7 @@ nytt siden den allerede finnes i databasen ie. original filer.
 
 Når en kolonne skal omkodes ved bruk av TYPE lik `RE` til `""` blir symbolen
 likevel forsvant eller usynlige når cursor blir flyttet. Løsningen er å skrive
-enten `empty` eller `tom` i *TIL* for å gjøre det tydelig. Selvsagt funker det
+enten `delete` eller `slett` i *TIL* for å gjøre det tydelig. Selvsagt funker det
 med `""` også, hvis du vil gjøre det vanskelig for deg selv og andre å se hva
 som egentlig definert i kodeboken &#128512;
 
