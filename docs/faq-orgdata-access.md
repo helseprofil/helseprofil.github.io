@@ -26,8 +26,11 @@ med `""` også, hvis du vil gjøre det vanskelig for deg selv og andre å se hva
 som egentlig definert i kodeboken &##128512;
 
 ## Unngå ÆØÅ i kolonnenavn - bruk MANHEADER ved behov
+*Oppdatering:*
+Fra versjon 1.2.1 kan man bruke *regulært uttrykk* i MANHEADER også f.eks `^utdan=UTDANNING` for å 
+gi nytt navn for spesielle kolonner f.eks kolonnenavn `utdanning før migrasjon` til `UTDANNING`. 
 
-Problem ca 01.09.22:
+**Problem ca 01.09.22:**
 I går prøvde Hanna og jeg å lese inn UFORE-filene i orgdata. Det fungerte ikke på min PC (og heller ikke hos Yusman). Problemet var knyttet til ÆØÅ, som ble lest forskjellig fra Access og fra filene, slik at kolonnenavnene ikke matchet.  Det ble lest inn feil både i filene og fra Access specs, men feil på to forskjellige måter. Dette medførte også utfordringer med å se på spesifikke kolonner, da R ikke klarte å lese riktige kolonnenavn. 
 
 Etter mye frem og tilbake ser det ut til at dette er knyttet til encoding-innstillinger som er endret i R versjon 4.2 (gått over til UTF-8). 
@@ -45,6 +48,4 @@ MANHEADER:
 Dette feltet i Access-specen gjør at kolonnehoder i innfilen erstattes med noe vi skriver. 
 De "vanskelige" kolonnehodene angis med nummer, og bør gis navn uten ÆØÅ.
 
-Fra versjon 1.2.1 kan man bruke *regulært uttrykk* i MANHEADER også f.eks `^utdan=UTDANNING` for å 
-gi nytt navn for spesielle kolonner f.eks kolonnenavn `utdanning før migrasjon` til `UTDANNING`. 
 
