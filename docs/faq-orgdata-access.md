@@ -25,8 +25,9 @@ enten `empty` eller `tom` i *TIL* for å gjøre det tydelig. Selvsagt funker det
 med `""` også, hvis du vil gjøre det vanskelig for deg selv og andre å se hva
 som egentlig definert i kodeboken &#128512;
 
-## Unngå ÆØÅ i kolonnenavn - bruk MANHEADER ved behov *Oppdatering:* Fra versjon
-1.2.1 kan man bruke *regulært uttrykk* dvs.
+## Unngå ÆØÅ i kolonnenavn - bruk MANHEADER ved behov 
+
+*Oppdatering:* Fra versjon 1.2.1 kan man bruke *regulært uttrykk* dvs.
 `^$\[.*\]` osv. i MANHEADER også f.eks `^utdan=UTDANNING` for å gi nytt navn for spesielle kolonner f.eks et langt og med `æøå` kolonnenavn `utdanning særlig før migrasjonsår` til et kort kolonnenavn `UTDANNING`.
 
 **Problem ca 01.09.22:**
