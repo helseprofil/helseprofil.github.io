@@ -17,13 +17,13 @@ For å kunne lese en fil flere ganger f.eks annen fane i en Excel fil, kan gjør
 ved å velge `Rediger` knappen. Valg `FILID` av filen, men IKKE skrive filstien på
 nytt siden den allerede finnes i databasen ie. original filer.
 
-## Kan ikke se "" i Access når kodebok for TYPE lik RE defineres
+## Kan ikke se `""` i Access når kodebok for TYPE lik RE defineres
 
 Når en kolonne skal omkodes ved bruk av TYPE lik `RE` til `""` blir symbolen
 likevel forsvant eller usynlige når cursor blir flyttet. Løsningen er å skrive
 enten `empty` eller `tom` i *TIL* for å gjøre det tydelig. Selvsagt funker det
 med `""` også, hvis du vil gjøre det vanskelig for deg selv og andre å se hva
-som egentlig definert i kodeboken &##128512;
+som egentlig definert i kodeboken &#128512;
 
 ## Unngå ÆØÅ i kolonnenavn - bruk MANHEADER ved behov
 *Oppdatering:*
