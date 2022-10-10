@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Bruke"
+title: "Bruk"
 parent: "Startside"
 nav_order: 2  
 ---

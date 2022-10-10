@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vedlikeholde"
+title: "Vedlikehold"
 parent: "Startside"
 nav_order: 3  
 ---
