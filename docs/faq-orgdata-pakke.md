@@ -5,7 +5,7 @@ parent: "FAQ orgdata"
 nav_order: 2  
 ---
 
-# Error loading "lazy-load database .... is corrupt"
+## Error loading "lazy-load database .... is corrupt"
 
 Når man installerer **orgdata** i RStudio kan det opptå feil ved komplilering av dokumentasjonen for `.Rdb` filer. Prøv:
 - Restarte R bl.a ved å kjøre `.rs.restartR()`
@@ -13,7 +13,7 @@ Når man installerer **orgdata** i RStudio kan det opptå feil ved komplilering 
 - Restarte RStudio
 - Installere **orgdata** på nytt
 
-# Error with `rlang`
+## Error with `rlang`
 
 Hvis du får denne feilmelding om `rlang` versjon
 
