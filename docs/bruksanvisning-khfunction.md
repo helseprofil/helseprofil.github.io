@@ -4,13 +4,12 @@ title: "Access for KHfunctions"
 nav_order: 2
 ---
 
-*(Filversjon 1, 15.4.2015 -- men oppdatert med detaljer innimellom)*
+*(Påbegynt april 2015 i Word, senere oppdatert med nye ting, men er nok ikke komplett. Filen bærer preg av å være mine personlige notater. -stbj.)*
 
 Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning. 
 
-**OBS!** Denne filen er rent konvertering fra *.docx* fil til *.md* med veldig
-begrenset redigering ble gjort &#128546; Bruk heller *søker* funksjon ovenfor for
-å finne ut det du letter etter. Du kan også se på [pdf-fil](/extra/Bruksanvisning.pdf)
+**OBS!** Denne filen er en konvertering fra *.docx*-filen på F-disk til *.md*. Layout (overskriftsstiler etc) er litt rotete, rydding er bare påbegynt. 
+Bruk gjerne *søk*-funksjonen ovenfor for å finne det du leter etter. Du kan også se på [pdf-fil](/extra/Bruksanvisning.pdf)
 
 
 Oversikt 
@@ -52,9 +51,9 @@ Mer generelt om sammenhengen i databasen, og hvordan den brukes (konvensjoner) b
 Begreper
 --------
 
-\- Navigasjonsruta til venstre i Accessbildet har de ulike tabeller, skjemaer osv. samlet under deloverskrifter (Access-begrep: «grupper»). Disse nevnes i denne filen først i navnet på det objektet vi skal inn i, slik: «STYRING\\Filgrupper».
+\- Navigasjonsruta til venstre i Accessbildet har de ulike tabeller, skjemaer osv. samlet under deloverskrifter (Access-begrep: «grupper»). Disse nevnes i denne filen først i navnet på det objektet vi skal inn i, slik: «STYRING\\Filgrupper». Deloverskriftene vises når menyen er "Egendefinert" (klikk evt. liten ned-pil-i-en-ring til høyre for menytittelen).
 
-\- Stablet fil: Alle de separate inndatafilene for en indikator (f.eks. alle årgangene) lagt oppå hverandre til én stor fil. DSS. filgruppe.
+\- Stablet fil: Alle de separate inndatafilene for en indikator (f.eks. alle årgangene) lagt oppå hverandre til én stor fil. DSS. filgruppe. 
 
 Arbeidsprinsipp
 ---------------
@@ -65,20 +64,20 @@ Arbeidsprinsipp
 
 2\) Kubeproduksjon, dvs. all videre behandling av stablet fil.
 
-\- Det er bare ett nivå av lagret mellomprodukt: Stablet fil. Denne ligger som R-datafil, og er normalt ikke meningen å behandle utenom systemet. Her ligger alle årganger, men normalt bare telleren (antall).
+\- Det er bare ett nivå av lagret mellomprodukt: Stablet fil. Denne ligger som R-datafil (.RDS) under \PRODUKTER\MELLOMPROD\R\STABLAORG\ ..., og er normalt ikke meningen å behandle utenom systemet. Her ligger alle årganger, men normalt bare telleren (antall).
 
 \- Hver gang noe skal leses inn (f.eks. ved ny årgang), leses samtlige tidligere originaldatafiler inn samtidig (det vil si, de som ikke er tatt ut av produksjonen). Stablet fil lages altså alltid på nytt fra bunnen, vi hekter ikke bare siste årgang bakpå en stor samlefil.
 
 \- Både for innlesing (dvs. hva som må til for å få lest filene riktig inn) og produksjon av output-filer styres detaljene fra en Access-database. Dermed trenger vi ikke tukle med selve produksjons­scriptene for å gjøre endringer.
 
-\- Innlesing settes i gang inne fra Access med en programmert funksjonsknapp.
+\- Innlesing kunne tidligere settes i gang inne fra Access med en programmert funksjonsknapp. Denne mekanismen er imidlertid ikke vedlikeholdt, selv om knappene fremdeles ligger der.
 
 \- Kubeproduksjon (dvs. all output) kjøres direkte i R. (Det kan nok bli endret etter hvert)
 
 Pass på:
 --------
 
-Klikk alltid «Oppdater alt»-knappen for HVER tabell (etc) jeg er inne og redigerer i! Hvis jeg bare bytter til en annen tabell, har jeg opplevd at siste innlagte verdi ikke blir lagret.
+Klikk alltid «Oppdater alt»-knappen for HVER tabell (etc) du er inne og redigerer i! Hvis jeg bare bytter til en annen tabell, har jeg opplevd at siste innlagte verdi ikke blir lagret.
 
 OG gå ut av den raden du har redigert i, så den ikke står i redigeringsmodus, FØR du klikker Oppdater.
 
@@ -90,7 +89,7 @@ Innlesing av filer
 
 Venstremeny i Access: Avsnitt LAG FILGRUPPE -- MÅ BRUKE
 
-1. Tabell FILGRUPPER:
+Tabell FILGRUPPER:
 ---------------------
 
 Én linje per ferdig stablet fil. Det svarer alltid til en unik gruppe inputfiler.
@@ -149,7 +148,7 @@ Ikke lag ny linje i tabellen, og ikke endre filgruppenavn -- vi bare redigerer e
 
 MEN da må vi også gå gjennom **samtlige gamle inndatafiler** (i neste verktøy, se neste avsnitt!) og sette «I bruk til»-dato lik i dag.
 
-2. Skjema StyrFILGRUPPER:
+Skjema StyrFILGRUPPER:
 -------------------------
 
 Viktigste styringsverktøy for innlesingen.
@@ -286,7 +285,7 @@ Dersom AAR mangler: Skriv **\<\$y\>** . Da hentes dataårgangen for denne ORGfil
 
 \- VAL1 -2 -3: Verdikolonnene. Som for TAB-kolonnene.
 
-\- GRUNNKRETS: Sett lik 1 hvis det er grunnkretskoder i GEO.
+\- GRUNNKRETS: IKKE I BRUK LENGER. (Sett lik 1 hvis det er grunnkretskoder i GEO, og disse skal håndteres av kommandoen LagFilgruppe).
 
 \- SONER: Se nedenfor.
 
@@ -318,11 +317,11 @@ Feltene lengre til høyre ble ikke forklart i første gjennomgang.
 | 0402                                                     | 0402                                                       | 040200                              |
 | = IKKE soner.<br> Skriv ingen ting i SONER-feltet.<br> Da vet systemet (by default) at <br>4 siffer =K, 6 siffer=B. | = SONER.<br> Angis som «4,6».<br>  | =SONER.<br>Angis som «6». |
 
-### Grunnkretser:
+### Grunnkretser (IKKE I BRUK LENGER etter at Rådataløypa overtok håndtering av grunnkretskodete filer, 2022):
 
 > Grunnkretser har ikke hierarkisk koding som samsvarer med bydelene. De fire sifferne bak kommunenummeret er selve GK, og må oversettes til bydelsnummer via en egen tabell. Derfor må vi si fra til systemet at kodene er GK, ved å sette \"1\" i feltet INNLESING/ GRUNNKRETS.
 
-### Andre kommuner enn bydels-byene: 
+### Andre kommuner enn bydels-byene (IKKE I BRUK LENGER, se forrige avsnitt): 
 
 > Grunnkrets er egentlig irrelevant. Alt bak kommunenummeret klippes av, og data aggregeres til kommuneverdiene, uten noen egen styring/kodebok/tabell. Feltet GRUNNKRETS må settes til 1.
 >
@@ -356,7 +355,7 @@ SE NEDENFOR om videre spec.
 
 Skrives uten mellomrom, adskilt av komma.
 
-**Marie og Nora pleier å shoppe funksjoner ved å se på tidligere innlesingsspec'er. Samtlige innlesingsspec'er er listet opp i tabellen HOVEDSTYRING\\INNLESING.**
+**Marie og Nora pleier å shoppe funksjoner ved å se på tidligere innlesingsspec'er. Samtlige innlesingsspec'er er listet opp i tabellen LAG FILGRUPPE -- MÅ BRUKE\\INNLESING.**
 
 #### Eksempler:
 
@@ -390,33 +389,29 @@ Gå i LAG FILGRUPPE -- MÅ BRUKE\\INNLESING og kopier spec\'en til ny rad. Skriv
 
 Ved innliming av fire kopierte spec'er i tabell INNLESING protesterte Access, «dubletter i et nøkkelfelt» eller noe sånt. De kopierte radene ble automatisk limt inn i en nyopprettet tabell «Innlimingsfeil», og Access sa «Rett opp feilene der, og kopier derfra til target-tabellen». Da fikk jeg skrevet inn nye verdier i alle fire, og kopierte fra «Innlimingsfeil» til INNLESING. Det ble godtatt.
 
-Bruk av RSYNT- (Statasynt-) punkter:
-------------------------------------
+### Bruk av RSYNT- (Statasynt-) punkter:
 
 Se oversikt over aktive punkter i [\\\\fhi.no\\Felles\\Forskningsprosjekter\\PDB 2455 - Helseprofiler og til\_\\PRODUKSJON\\DOK\\Oversikt over alle RSYNT-punkter.docx]
 
-3. Kjør innlesing med disse parameterne: 
+Kjør innlesing med disse parameterne: (Bruk RStudio, se nedenfor)
 ----------------------------------------
 
-DOBBELTKLIKK (NB!) «Lag stablet fil»-knappen.
-
-OBS: Egen knapp for 64-bits Access.
-
+Ikke i bruk lenger: 
+> DOBBELTKLIKK (NB!) «Lag stablet fil»-knappen.
+> OBS: Egen knapp for 64-bits Access.
 > Disse knappene er Visual Basic, som Kåre ikke kan. R-versjon er hardkodet -- det er en del av path til programmet. Oppdatert sep-17 til vår \"frosne\" R på Kommunehelsa-disken.
+> Hvis knappen ikke virker, funker det å kjøre direkte i R. Da kan jeg også se evt. feilmeldinger.
 
-Hvis knappen ikke virker, funker det å kjøre direkte i R. Da kan jeg også se evt. feilmeldinger.
-
-UTDATERT des-2020: Vi er over på versjonshåndtering med Git, som krever at vi kjører fra R/RStudio.
 
 ### I RStudio:
 
 Åpne R-prosjekt «khfunctions». Det må være satt opp på forhånd, se egen bruksanvisning ...
 
-Gå i fane Terminal og velg riktig branch i Git (skal som standard være Master eller Main). Sørg for at den er oppdatert (git pull).
+Fra H-2022: Når R-prosjektet lastes, blir nødvendige oppdateringer av R-pakker kjørt automatisk, og nyeste utgave av produksjonsscriptet sources direkte fra Github.
 
 Åpne F:\\PDB 2455 - Helseprofiler og til\_\\PRODUKSJON\\BIN\\ SePaaFil.r
 
-**\#NB: Alle kommandoer under krever at linja under kjøres en gang ved oppstart**
+**Trengs ikke lenger:** (\#NB: Alle kommandoer under krever at linja under kjøres en gang ved oppstart)
 
 > source(\'KHfunctions.r\')
 
@@ -500,7 +495,7 @@ OBS: Koding av VALn missing -\> \'noe annet\' : Se også felt FILGRUPPE/VAL1miss
 
 ### Legge inn ny kode: Tabell KODEBOK
 
-\- Identifiser FILGRUPPE, DELID og FELTTYPE (dvs. variabelnavn) koden gjelder for.
+\- Identifiser FILGRUPPE, DELID og FELTTYPE (dvs. variabelnavn) koden gjelder for. **OBS: Her brukes standardnavnene, dvs. TAB1 etc.**
 
 \- DELID kan oppgis til FELLES. Da gjelder denne raden for alle DELID innen samme FILGRUPPE. Men IKKE sett FELLES hvis det fins flere varianter av samme inn-kode (dvs. som skal bli til én ut-kode). Det kan se ut som en FELLES gjør at andre varianter ikke slår inn?
 
@@ -536,12 +531,6 @@ Her finner du igjen Filgruppe, Delid, Felttype.
 
 \- OK flagger de radene der dette ikke stemmer overens (=0), så man kan filtrere fram disse.
 
-Gjelder dette nå, etter at \"versjonering=TRUE\" er satt som default? MEN SÅ MÅ FILGRUPPEN LAGES I R!
------------------------------------------------------------------------------------------------------
-
-Kjøring i Access (med knappen) viser om det ble vellykket, men lager ikke det endelige sluttproduktet som plukkes opp av kubeproduksjonen!
-
-Se under 3)
 
 SPESIELLE TRIKS OSV
 -------------------
