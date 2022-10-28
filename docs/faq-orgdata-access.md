@@ -54,7 +54,7 @@ De "vanskelige" kolonnehodene angis med nummer, og bør gis navn uten ÆØÅ.
 Bruk av *TYPE* `KB` i kodebok for omkoding kan bare håndtere en-til-en omkoding.
 Men hvis det er behov å omkode flere verdier til en felles verdi i samme
 kolonne, kan man bruke *TYPE* `RE` dvs. regulæruttryk eller `rex`, istedenfor.
-For eksample å omkode kolonne *INNVKAT* med verdi 1, 2, 3 og 5, til 8 kan defineres
+For eksample å omkode kolonne *INNVKAT* med verdi 1, 2, 3 eller 5, til 8 kan defineres
 slik:
 
 Med `RE` ved bruk av `rex`:
