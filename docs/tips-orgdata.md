@@ -37,12 +37,3 @@ Med standard `KB` omkoding:
 | ver1  | INNVKAT | KB   | 3   | 8   |
 | ver1  | INNVKAT | KB   | 5   | 8   |
 
-### Spore opp funksjoner som brukes til debugging
-
-For å se hvilke funksjoner som brukes eller aktiveres når man kjører
-`LagFilgruppe` eller `LagKUBE` kan gjøres ved å definere `show_function` objekt
-til `TRUE` etter at man har `source` *KHfunctions.R* filen. 
-
-```r
-show_function <- TRUE
-```
