@@ -18,3 +18,10 @@ kh_source(repo = "khfunctions", branch = "master", file = "KHfunctions.R", encod
 
 show_function <- TRUE
 ```
+
+Denne muligheten kan være nyttig for å se hvilke funksjoner som kan lage
+problemer i kjøringen. Funksjonen som kjøres skal vises i *console* som:
+
+```r
+Execute: LagKUBE()
+```
