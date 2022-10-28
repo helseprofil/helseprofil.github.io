@@ -53,21 +53,31 @@ De "vanskelige" kolonnehodene angis med nummer, og bør gis navn uten ÆØÅ.
 
 Bruk av *TYPE* `KB` i kodebok for omkoding kan bare håndtere en-til-en omkoding.
 Men hvis det er behov å omkode flere verdier til en felles verdi i samme
-kolonne, kan man bruke *TYPE* `RE` dvs. regulæruttryk, istedenfor. For eksample
-å omkode kolonne *INNVKAT* med verdi 1 til 3, til 8 kan defineres slik:
+kolonne, kan man bruke *TYPE* `RE` dvs. regulæruttryk eller `rex`, istedenfor.
+For eksample å omkode kolonne *INNVKAT* med verdi 1, 2, 3 og 5, til 8 kan defineres
+slik:
 
-Med `RE`:
+Med `RE` ved bruk av `rex`:
 
-| LESID | KOL     | TYPE | FRA     | TIL |
-|-------|---------|------|---------|-----|
-| ver1  | INNVKAT | RE   | 1\|2\|3 | 8   |
+| LESID | KOL     | TYPE | FRA            | TIL |
+|-------|---------|------|----------------|-----|
+| ver1  | INNVKAT | RE   | rex(or(1:3,5)) | 8   |
+
+Med `RE` ved bruk av regulæruttryk:
+
+| LESID | KOL     | TYPE | FRA        | TIL |
+|-------|---------|------|------------|-----|
+| ver1  | INNVKAT | RE   | 1\|2\|3\|5 | 8   |
 
 Alle boolean symboler kan brukes her dvs. `|` og `&` for ELLER og OG.
 
-Med `KB`:
+
+Med standard `KB` omkoding:
 
 | LESID | KOL     | TYPE | FRA | TIL |
 |-------|---------|------|-----|-----|
 | ver1  | INNVKAT | KB   | 1   | 8   |
 | ver1  | INNVKAT | KB   | 2   | 8   |
 | ver1  | INNVKAT | KB   | 3   | 8   |
+| ver1  | INNVKAT | KB   | 5   | 8   |
+
