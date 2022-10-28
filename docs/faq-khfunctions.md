@@ -32,6 +32,8 @@ Med `RE`:
 |-------|---------|------|---------|-----|
 | ver1  | INNVKAT | RE   | 1\|2\|3 | 8   |
 
+Alle boolean symboler kan brukes her dvs. `|` og `&` for ELLER og OG.
+
 Med `KB`:
 
 | LESID | KOL     | TYPE | FRA | TIL |
