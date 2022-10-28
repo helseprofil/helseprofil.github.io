@@ -11,8 +11,8 @@ Noen spørsmål og løsninger om bruk av *KHvalitetskontroll*.
 ### Brukerfiler
 
 - Brukerfilene ligger i mappen USER
-- Du skal primært bruke 'Kvalitetskontroll_del1.Rmd' og 'Kvalitetskontroll_del2.Rmd'
-- Alle funksjonene ligger i mappen som heter R. Disse kopieres fra 
+- Du skal primært bruke `Kvalitetskontroll_del1.Rmd` og `Kvalitetskontroll_del2.Rmd`
+- Alle funksjonene ligger i mappen som heter **R**. Disse kopieres fra 
 
 ### Feil ved oppstart
 - Prosjektet kjører noen script fra GitHub ved oppstart, dette krever internettilgang. 
