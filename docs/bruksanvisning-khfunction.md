@@ -4,6 +4,8 @@ title: "Access for KHfunctions"
 nav_order: 2
 ---
 
+*Sist oppdatert: 01.09.2022*
+
 *(Påbegynt april 2015 i Word, senere oppdatert med nye ting, men er nok ikke komplett. Filen bærer preg av å være mine personlige notater. -stbj.)*
 
 Access/R produksjonsapparat for folkehelseprofiler: Brukerveiledning. 
