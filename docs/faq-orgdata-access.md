@@ -17,6 +17,12 @@ For å kunne lese en fil flere ganger f.eks annen fane i en Excel fil, kan gjør
 ved å velge `Rediger` knappen. Valg `FILID` av filen, men IKKE skrive filstien på
 nytt siden den allerede finnes i databasen ie. original filer.
 
+## Feilmedling om `dublettverdier i en indeks, primærnøkkel eller relasjon`.
+
+Dette skjer særlig når man skal legge inn ny rawfil som allerede finnes i
+databasen. Trykk knappen *Orgfiler* og bruk *KOBLID* til den filen som allerede
+finnes i databasen istedenfor å legge den på nytt.
+
 ## Kan ikke se `""` i Access når kodebok for TYPE lik RE defineres
 
 Når en kolonne skal omkodes ved bruk av TYPE lik `RE` til `""` blir symbolen

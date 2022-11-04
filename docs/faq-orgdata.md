@@ -10,4 +10,4 @@ nav_order: 4
 Her finner du vanlige problemer dvs. *(FAQ)*, og løsninger om bruk av *orgdata*
 pakke og Access database for *orgdata*.
 
-*Sist oppdatert: 03.11.2022*
+*Sist oppdatert: 04.11.2022*
