@@ -16,13 +16,13 @@ defineres som følgende. Alle eksempler nedenfor gir samme resultat.
 Med `RE` ved bruk av [rex](https://rex.r-lib.org/ "rex"):
 
 | LESID | KOL     | TYPE | FRA            | TIL |
-|-------|---------|------|----------------|-----|
+|-------|---------|------|----------------|:---:|
 | ver1  | INNVKAT | RE   | rex(or(1:3,5)) | 8   |
 
 Med `RE` ved bruk av regulæruttryk:
 
 | LESID | KOL     | TYPE | FRA        | TIL |
-|-------|---------|------|------------|-----|
+|-------|---------|------|------------|:---:|
 | ver1  | INNVKAT | RE   | 1\|2\|3\|5 | 8   |
 
 Alle boolean symboler kan brukes her dvs. `|` og `&` for ELLER og OG.
@@ -31,7 +31,7 @@ Alle boolean symboler kan brukes her dvs. `|` og `&` for ELLER og OG.
 Med standard `KB` omkoding:
 
 | LESID | KOL     | TYPE | FRA | TIL |
-|-------|---------|------|-----|-----|
+|-------|---------|------|:---:|:---:|
 | ver1  | INNVKAT | KB   | 1   | 8   |
 | ver1  | INNVKAT | KB   | 2   | 8   |
 | ver1  | INNVKAT | KB   | 3   | 8   |
