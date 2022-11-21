@@ -22,13 +22,13 @@ nytt siden den allerede finnes i databasen ie. original filer.
 Trykk knappen **Orgfiler**. En ny fane som heter *Originalfiler* åpnes hvor du kan
 søke filen du er interessert i. Deretter ser du *FILID* til filen.
 
-## Feilmedling om "dublettverdier i en indeks, primærnøkkel eller relasjon".
+## Feilmelding om "dublettverdier i en indeks, primærnøkkel eller relasjon".
 
-Dette skjer særlig når man skal legge inn ny rawfil som allerede finnes i
+Dette skjer ofte når man skal legge inn ny rawfil som allerede finnes i
 databasen. Trykk knappen **Orgfiler** og bruk *FILID* til den filen som allerede
 finnes i databasen istedenfor å legge den på nytt.
 
-## Kan ikke se `""` i Access når kodebok for TYPE lik RE defineres
+## Kan ikke se doble anførselstegn `""` i Access når kodebok for TYPE er RE
 
 Når en kolonne skal omkodes ved bruk av TYPE lik `RE` til `""` blir symbolen
 likevel forsvant eller usynlige når cursor blir flyttet. Løsningen er å skrive
